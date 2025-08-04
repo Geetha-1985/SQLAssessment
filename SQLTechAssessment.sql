@@ -16,12 +16,12 @@ SupplierID INT
 
 INSERT INTO tblFruit(FruitID,Name,Price,ColourID,SizeID,CountryID,SupplierID)
 VALUES
-(1, 'Lemon', '£1', 1,2,1,1),
-(2, 'Apple', '£2', 2,2,2,2),
-(3, 'Orange', '£3', 3,2,3,1),
-(4, 'Pineapple', '£2', 1,3,4,3),
-(5, 'Grape', '£1', 2,1,2,2),
-(6, 'Banana', '£1', 1,2,1,1);
+(1, 'Lemon', 'Â£1', 1,2,1,1),
+(2, 'Apple', 'Â£2', 2,2,2,2),
+(3, 'Orange', 'Â£3', 3,2,3,1),
+(4, 'Pineapple', 'Â£2', 1,3,4,3),
+(5, 'Grape', 'Â£1', 2,1,2,2),
+(6, 'Banana', 'Â£1', 1,2,1,1);
 
 
 --Table(tblColours) creation
