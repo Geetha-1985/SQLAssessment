@@ -1,0 +1,88 @@
+﻿Name                                               Colour               Size
+-------------------------------------------------- -------------------- --------------------
+Lemon                                              Yellow               Medium
+Apple                                              Green                Medium
+Orange                                             Orange               Medium
+Pineapple                                          Yellow               Large
+Grape                                              Green                Small
+Banana                                             Yellow               Medium
+
+(6 rows affected)
+
+Name
+--------------------------------------------------
+Apple
+
+(1 row affected)
+
+Country                        Fruits
+------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Brazil                         Pineapple
+France                         Apple, Grape
+Italy                          NULL
+Morocco                        Orange
+Spain                          Lemon, Banana
+
+(5 rows affected)
+
+SupplierName                                       Fruits
+-------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FreshFruits Ltd                                    Lemon, Orange, Banana
+GreenHarvest                                       Apple, Grape
+TropicWorld                                        Pineapple
+
+(3 rows affected)
+
+Name                                               SupplierName
+-------------------------------------------------- --------------------------------------------------
+Lemon                                              FreshFruits Ltd
+Orange                                             FreshFruits Ltd
+Banana                                             FreshFruits Ltd
+Grape                                              GreenHarvest
+Apple                                              GreenHarvest
+Pineapple                                          TropicWorld
+
+(6 rows affected)
+
+SaleID      FruitName                                          Country_of_origin              SupplierName                                       SaleQuantity
+----------- -------------------------------------------------- ------------------------------ -------------------------------------------------- ------------
+1           Lemon                                              Spain                          FreshFruits Ltd                                    10
+2           Apple                                              France                         GreenHarvest                                       5
+3           Orange                                             Morocco                        FreshFruits Ltd                                    8
+4           Pineapple                                          Brazil                         TropicWorld                                        2
+5           Grape                                              France                         GreenHarvest                                       15
+6           Banana                                             Spain                          FreshFruits Ltd                                    7
+
+(6 rows affected)
+
+Country                        QuantitySold
+------------------------------ ------------
+France                         20
+
+(1 row affected)
+
+FruitsNotSold
+--------------------------------------------------
+
+(0 rows affected)
+
+Colour               FruitNames
+-------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Green                Apple, Grape
+Yellow               Lemon, Pineapple, Banana
+
+(2 rows affected)
+
+SaleID      SaleDate   Fruit                                              Colour               Size                 Country                        SupplierName                                       QuantitySold
+----------- ---------- -------------------------------------------------- -------------------- -------------------- ------------------------------ -------------------------------------------------- ------------
+1           2025-01-05 Lemon                                              Yellow               Medium               Spain                          FreshFruits Ltd                                    10
+3           2025-01-07 Orange                                             Orange               Medium               Morocco                        FreshFruits Ltd                                    8
+2           2025-02-06 Apple                                              Green                Medium               France                         GreenHarvest                                       5
+6           2025-02-07 Banana                                             Yellow               Medium               Spain                          FreshFruits Ltd                                    7
+5           2025-03-07 Grape                                              Green                Small                France                         GreenHarvest                                       15
+4           2025-03-07 Pineapple                                          Yellow               Large                Brazil                         TropicWorld                                        2
+
+(6 rows affected)
+
+
+Completion time: 2025-08-04T19:15:23.3610971+05:30
