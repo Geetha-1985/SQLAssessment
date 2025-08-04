@@ -1,5 +1,5 @@
-Create database CassiniTechAssessmentDB;
-use CassiniTechAssessmentDB;
+Create database SQLTechAssessmentDB;
+use SQLTechAssessmentDB;
 
 --Table(tblFruit) creation
 Create table tblFruit (
@@ -173,3 +173,4 @@ join tblCountries Co on F.CountryID = Co.CountryID
 join tblSuppliers Su on F.SupplierID = Su.SupplierID
 join tblSizes Si on F.SizeID = Si.SizeID
 Order By SaleDate Asc , Name Asc
+
